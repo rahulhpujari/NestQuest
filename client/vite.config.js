@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
     '/api': {
-        target: 'https://nestquest-s75p.onrender.com/',
+        target: 'https://nestquest-s75p.onrender.com',
         secure: false,
       },
     },
